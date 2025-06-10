@@ -52,6 +52,6 @@ flask run --debug
 ```
 
 
-Harusnya bener gitu langkahnya, jika muncul error yamaap hehe 
+
 
 
