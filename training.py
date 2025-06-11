@@ -5,7 +5,7 @@ model = YOLO("yolov8n.pt")
 
 model.train(
     data="./toilet-disable/data.yaml",
-    epochs=5,
+    epochs=10,
     optimizer="Adam",
     imgsz=640,               
     augment=True,           
@@ -18,5 +18,4 @@ model.train(
     name="yolov8n_cadangan",   
     exist_ok=True,          
 )
-
 
